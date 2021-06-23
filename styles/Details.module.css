@@ -1,0 +1,11 @@
+.emailBtn {
+  color: #fff;
+  background-color: #2076da;
+  border: none;
+  padding: 7px 13px 7px 10px;
+  border-radius: 5px;
+}
+
+.container {
+  margin-left: 1em;
+}
