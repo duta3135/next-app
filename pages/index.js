@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Home Page</h1>
-      <Link href="/members"><button className={styles.button}>See Members</button></Link>
+      <Link href="/members" passHref><button className={styles.button}>See Members</button></Link>
     </div>
   )
 }

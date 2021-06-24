@@ -1,0 +1,10 @@
+.pfp {
+  color: #fff;
+  background-color: rgb(99, 99, 112);
+  width: 30px;
+  margin-right: 10px;
+  height: 30px;
+  text-align: center;
+  padding-top: 0.5vh;
+  border-radius: 50%;
+}

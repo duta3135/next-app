@@ -9,3 +9,14 @@
 .container {
   margin-left: 1em;
 }
+.backBtn {
+  color: rgb(177, 177, 177);
+  border: none;
+  background-color: #f0f0f0;
+  padding: 5px 7px 3px 7px;
+  margin-top: 1em;
+  border-radius: 2px;
+}
+.h1 {
+  margin-top: 0;
+}
