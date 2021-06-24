@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react'
 import Link from 'next/link'
+import Head from 'next/head'
 import styles from '../../styles/Members.module.css'
 import Pfp from '../../components/pfp';
 import { NameContext } from '../../NameContext';
@@ -10,11 +11,14 @@ function Users() {
         .then(response => response.json())
         .then(json => setUsers(json));
     }, [])
-
-    console.log(users.name)
+    
+    
     return (
         
         <div className={styles.container}>
+            <Head>
+            <title>members</title>
+        </Head>
             <Link href="/" passHref><button className={styles.backBtn}>Go Back</button></Link>
             <h1 className={styles.h1}>Members</h1>
             

@@ -1,6 +1,6 @@
 import {useRouter} from 'next/router'
 import Link from 'next/link'
-
+import Head from 'next/head'
 import {useEffect, useState} from 'react'
 import styles from '../../styles/Details.module.css'
 function DetailPage() {
@@ -16,6 +16,9 @@ function DetailPage() {
     
     return (
         <div className={styles.container}>
+            <Head>
+                <title>{user.name}</title>
+            </Head>
             <Link href="/members" passHref><button className={styles.backBtn}>Go Back</button></Link>
             <h1 className={styles.h1}>details</h1>
             <h4>Name: {JSON.stringify(user.name)}</h4>
