@@ -12,8 +12,7 @@ function DetailPage() {
         .then(response => response.json())
         .then(json => setUser(json));
     }, [])
-    const email = JSON.stringify(user.email)
-    
+    const email = JSON.stringify(user.email);
     return (
         <div className={styles.container}>
             <Head>
